@@ -312,32 +312,32 @@ function addIcon(book) {
     return svg;
   }
   else if (book.genre == 'Hälsa') {
-    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.61)" class="bi bi-lungs-fill" viewBox="0 0 16 16">
+    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.851)" class="bi bi-lungs-fill" viewBox="0 0 16 16">
                  <path d="M8 1a.5.5 0 0 1 .5.5v5.243L9 7.1V4.72C9 3.77 9.77 3 10.72 3c.524 0 1.023.27 1.443.592.431.332.847.773 1.216 1.229.736.908 1.347 1.946 1.58 2.48.176.405.393 1.16.556 2.011.165.857.283 1.857.24 2.759-.04.867-.232 1.79-.837 2.33-.67.6-1.622.556-2.741-.004l-1.795-.897A2.5 2.5 0 0 1 9 11.264V8.329l-1-.715-1 .715V7.214c-.1 0-.202.03-.29.093l-2.5 1.786a.5.5 0 1 0 .58.814L7 8.329v2.935A2.5 2.5 0 0 1 5.618 13.5l-1.795.897c-1.12.56-2.07.603-2.741.004-.605-.54-.798-1.463-.838-2.33-.042-.902.076-1.902.24-2.759.164-.852.38-1.606.558-2.012.232-.533.843-1.571 1.579-2.479.37-.456.785-.897 1.216-1.229C4.257 3.27 4.756 3 5.28 3 6.23 3 7 3.77 7 4.72V7.1l.5-.357V1.5A.5.5 0 0 1 8 1m3.21 8.907a.5.5 0 1 0 .58-.814l-2.5-1.786A.5.5 0 0 0 9 7.214V8.33z"/>
                  </svg>`;
     return svg;
   }
   else if (book.genre == 'Studier') {
-    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.61)" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.851)" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
                  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
                  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
                  </svg>`;
     return svg;
   }
   else if (book.genre == 'Självbiografi') {
-    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.61)" class="bi bi-person-fill" viewBox="0 0 16 16">
+    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.851)" class="bi bi-person-fill" viewBox="0 0 16 16">
                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                  </svg>`;
     return svg;
   }
   else if (book.genre == 'Deckare') {
-    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.61)" class="bi bi-search" viewBox="0 0 16 16">
+    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.851)" class="bi bi-search" viewBox="0 0 16 16">
                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                  </svg>`;
     return svg;
   }
   else if (book.genre == 'Språk') {
-    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.61)" class="bi bi-translate" viewBox="0 0 16 16">
+    const svg = `<svg class="card-img-top" style="margin-block: 2rem" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgba(20, 70, 20, 0.851)" class="bi bi-translate" viewBox="0 0 16 16">
                  <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
                  <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
                  </svg>`;
